@@ -48,6 +48,21 @@
             <version>8.0.17</version>
         </dependency>
 
+        <!--nacos服务发现-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>2.2.4.RELEASE</version>
+        </dependency>
+
+
+        <!--配置中心来做配置管理-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2.2.4.RELEASE</version>
+        </dependency>
+
         <!--servlet-api-->
         <dependency>
             <groupId>javax.servlet</groupId>
